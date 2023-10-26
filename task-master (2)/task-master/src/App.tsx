@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import './App.scss';
 import {Description} from "./Description";
-import SvgComponent from './Components/Svg';
+import SvgComponent from './Components/SvgComponent';
 export const App = () => {
     const [isDescription, setIsDescription ] = useState(true)
 
