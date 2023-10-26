@@ -1,0 +1,16 @@
+$background-color_1: #F4F3F3;
+$background-color_2: white;
+
+.root {
+	width: 500px;
+	margin: auto;
+	min-height: 60px;
+	background-color: $background-color_1;
+	padding: 10px;
+}
+.rotateButton {
+	width: 120px;
+	background-color: $background-color_2;
+	border: 1px solid;
+	font-weight: 600;
+}
