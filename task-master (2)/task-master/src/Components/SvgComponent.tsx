@@ -27,10 +27,10 @@ const SvgComponent:React.FC = () => {
 
   return (
     <div>
-      <button onClick={RotateOnToggle}>Rotate On Toggle</button>
+      <button onClick={RotateOnToggle}>Rotate Floorplan</button>
       
       <select value = {selectedColor} onChange={handleColorChange}>
-        <option value= ''>Select HexColor... </option>
+        <option value= '{hexColorToGeneralName(hexColor)}'>Select HexColor... </option>
         {colorOptions.map((hexColor, index) => (
           <option key={index} value= {hexColor}>
             {hexColorToGeneralName(hexColor)}
