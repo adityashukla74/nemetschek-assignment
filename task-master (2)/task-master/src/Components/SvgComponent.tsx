@@ -37,16 +37,9 @@ const SvgComponent:React.FC = () => {
           </option>
         ))}
       </select>
-      {selectedColor && (
-        <div style= {{
-          width: '100px',
-          height: '100px',
-          backgroundColor: selectedColor,
-        }}
-        ></div>
-      )}
+      
       <div style={StyleOnRotation}>
-       <FloorPlan/>
+       <FloorPlan stroke={selectedColor} fill={selectedColor}/>
       se</div>
     </div>
   )
