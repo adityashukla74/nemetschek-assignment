@@ -1,0 +1,40 @@
+.content {
+    padding: 10px;
+}
+
+.tabs {
+    width: 100%;
+    padding: 50px 0 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+
+    button {
+        cursor: pointer;
+        background: #fff;
+        border: none;
+        padding: 10px 25px;
+        color: #cfcfcf;
+        font-weight: bold;
+
+        &.active {
+            border-top: 1px solid #616161;
+            border-left: 1px solid #616161;
+            border-right: 1px solid #616161;
+            background: #7f7f7f;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            cursor: pointer;
+            color: #fff;
+        }
+    }
+}
+
+code {
+    background-color: #333;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; /* Font for code */
+}
